@@ -22,8 +22,8 @@ function build_ncurses() {
     cd /build
 
     # Download
-    curl -LO ftp://invisible-island.net/ncurses/ncurses-${NCURSES_VERSION}.tar.gz
-    tar zxvf ncurses-${NCURSES_VERSION}.tar.gz
+    curl -LO https://invisible-island.net/datafiles/release/ncurses.tar.gz
+    tar zxvf ncurses.tar.gz
     cd ncurses-${NCURSES_VERSION}
 
     # Build
